@@ -1,0 +1,54 @@
+* { margin: 0;
+    padding: 0; }
+
+section {margin-bottom: 60px;}
+
+.simpel-menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: montserrat, sans-serif;
+    padding: 15px; }
+
+.simpel-menu a {
+    text-decoration: none;
+    color: black; }
+
+.logo img {width: 70px; }
+
+
+.simpel-menu nav a:hover {
+    text-decoration: underline;
+    color: #938f8f;}
+
+/* når linket er besøgt - farve */
+.simpel-menu nav a:visited 
+    {color: black; }
+
+/* ændre menu str. og luft imellem */
+.simpel-menu nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-around; 
+    font-size: 20px;}
+
+  /* får bagrundsbillede til at fylde hele siden 
+body {
+    background-image: url(vandfald.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ccc; 
+    background-blend-mode: soft-light; }  */
+    
+h1 {
+    font-family: montserrat, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center; }
+
+p  {
+    font-family: montserrat, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center; }
